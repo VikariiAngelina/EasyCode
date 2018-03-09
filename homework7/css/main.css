@@ -1,0 +1,13 @@
+body {
+	background-color: yellow;
+}
+
+.main__left {
+	float: left;
+	width: 70%;
+}
+
+.main__right {
+	float: right;
+	width: 30%;
+}

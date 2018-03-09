@@ -1,0 +1,15 @@
+.link {
+	text-decoration: none;
+}
+
+.block {
+	width: 100%
+}
+
+.block-element {
+	background-color: #eee;
+	display:inline-block;
+	width: 30%;
+	padding: 0 10px;
+	margin: 10px;
+}

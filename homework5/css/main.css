@@ -1,0 +1,36 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+.block {
+	font-size: 0;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.container h2 {
+	padding-left: 10px;
+}
+
+.block__item {
+	display: inline-block;
+	width: 25%;
+	padding: 10px;	
+	vertical-align: middle;
+}
+
+.block__item img {
+	width: 100%;
+	height: auto;
+}
+
+.description {
+	font-size: 18px;
+}
