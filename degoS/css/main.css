@@ -1,0 +1,212 @@
+.wrapper {
+	background-image: url("../images/wrapper.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+}
+/*начало хедера*/
+.header {
+	padding-top: 20px;
+}
+
+.headerLeft {
+	float: left;
+	padding-top: 10px;
+}
+
+.lang {
+	display: inline-block;
+	margin-right: 50px;
+
+}
+
+.lang__item {
+	display: inline-block;
+	color: #fff;
+}
+
+.lang__item:after {
+	margin-left: 4px;
+	content: "|";
+	color: #fff;
+}
+
+.lang__item:last-child:after {
+	display: none;
+}
+
+
+.lang__item__link {
+	font-size: 14px;
+	color: #fff;
+	text-decoration: none;
+}
+
+
+.design {
+	display: inline-block;
+	font-size: 14px;
+	color: #fff;
+	text-decoration: none;
+	font-style: italic;	 
+}
+
+.headerRight {
+	float:right;
+}
+
+.works {
+	display: inline-block;
+	margin-right: 50px;
+	font-size: 14px;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.btn {
+	display: inline-block;
+	padding: 9px;
+	border: 1px solid;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.dego img {
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 330px;
+	height: 105px;
+}
+
+/*начало main*/
+.main {
+	padding: 30px 0;
+}
+
+.main__left {
+	width: 70%;
+	float: left;
+	padding-right: 45px;
+}
+
+.main__left h1 {
+	font-size: 36px;
+	text-transform: uppercase;
+	margin-top: 0;
+	margin-bottom: 53px;
+}
+
+.text_one {
+	font-size: 30px;
+	font-style: italic;
+	margin-top: 0;
+	margin-bottom: 53px;
+}
+
+.text_two {
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 0;
+}
+
+.main__right {
+	width: 30%;
+	float: right;
+	font-size: 0;
+}
+
+.block__img {
+	display: inline-block;
+	width: 50%;	
+	vertical-align: middle;
+}
+
+.block__img img {
+	width: 100%;
+	height: auto;
+}
+/*блок перед футером*/
+
+.banner {
+	background-image: url("../images/fon.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+}
+
+.banner__block h2 {
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 50px;
+	font-size: 48px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+}
+
+.btnbig {
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	bottom: 90px;
+	padding: 15px 10px;
+	text-align: center;
+	width: 205px;
+	font-size: 14px;
+}
+
+/*начало футера*/
+.footer{
+	padding: 15px 0;
+	background-color: #000;
+}
+
+.design_color {
+	color: #fafafa; 
+}
+
+.footerblock {
+	font-size: 14px;
+	float: left;
+	width: 25%;
+}
+
+.blocktwo {
+	text-align: right;
+	padding-right: 15px;
+}
+
+.blockthree {
+	text-align: left;
+	padding-left: 15px;
+}
+
+.telNumber {
+	text-decoration: none;
+}
+
+.footerblock a {
+	color: #fff;
+}
+
+.footer__cp {
+	color: #aeaeae;
+}
+
+.footer__cp a{
+	color: #aeaeae;
+}
