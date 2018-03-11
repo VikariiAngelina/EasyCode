@@ -1,12 +1,13 @@
 .wrapper {
-	background-image: url("../images/wrapper.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 100vh;
 	position: relative;
+	background-size: cover;
 }
 /*начало хедера*/
 .header {
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	top: 0;
 	padding-top: 20px;
 }
 
@@ -74,7 +75,7 @@
 	text-transform: uppercase;
 }
 
-.dego img {
+.logo img {
 	position: absolute;
 	margin: auto;
 	top: 0;
@@ -82,7 +83,12 @@
 	left: 0;
 	right: 0;
 	width: 330px;
-	height: 105px;
+	height: 105px;	
+}
+
+.sliderTop img {
+	width: 100%;
+	height: auto;
 }
 
 /*начало main*/
@@ -135,10 +141,7 @@
 /*блок перед футером*/
 
 .banner {
-	background-image: url("../images/fon.jpg");
-	background-repeat: no-repeat;
 	background-size: cover;
-	height: 100vh;
 	position: relative;
 }
 
@@ -149,6 +152,7 @@
 	bottom: 0;
 	left: 0;
 	right: 0;
+	z-index: 1;
 	width: 100%;
 	height: 50px;
 	font-size: 48px;
@@ -157,12 +161,31 @@
 	color: #fff;
 }
 
+.arrow__itemone img  {
+	position: absolute;
+	margin: auto;
+	left: 80px;
+	top: 0;
+	bottom: 90px;
+	z-index: 1;
+}
+
+.arrow__itemtwo img  {
+	position: absolute;
+	margin: auto;
+	right: 80px;
+	top: 0;
+	bottom: 90px;
+	z-index: 1;
+}
+
 .btnbig {
 	position: absolute;
 	margin: auto;
 	left: 0;
 	right: 0;
 	bottom: 90px;
+	z-index: 1;
 	padding: 15px 10px;
 	text-align: center;
 	width: 205px;
@@ -210,3 +233,5 @@
 .footer__cp a{
 	color: #aeaeae;
 }
+
+
