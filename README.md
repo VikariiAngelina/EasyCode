@@ -1,6 +1,6 @@
 # EasyCode
 Easy Code Homeworks
 
-##degos
+## degos
 
 https://github.com/VikariiAngelina/EasyCode.git
