@@ -75,13 +75,17 @@
 	text-transform: uppercase;
 }
 
-.logo img {
+.sliderTop__item {
+	position: relative;
+}
+
+.logo {
 	position: absolute;
-	margin: auto;
 	top: 0;
 	bottom: 0;
 	left: 0;
 	right: 0;
+	margin: auto;
 	width: 330px;
 	height: 105px;	
 }
@@ -89,6 +93,28 @@
 .sliderTop img {
 	width: 100%;
 	height: auto;
+}
+
+.lang__item__link:hover,
+.works:hover,
+.design:hover {
+	color: #0000CD;
+}
+
+.btn:hover {
+	background-color: #0000CD;
+	border: 1px solid #0000CD;
+}
+
+.arrow__bottom img {
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 50px;
+	height: 50px
+
 }
 
 /*начало main*/
@@ -161,22 +187,39 @@
 	color: #fff;
 }
 
-.arrow__itemone img  {
-	position: absolute;
-	margin: auto;
-	left: 80px;
-	top: 0;
-	bottom: 90px;
-	z-index: 1;
+.slick-next,
+.slick-prev {
+    position: absolute;
+    top: 50%;
+    display: block;
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    width: 64px;
+    height: 64px;
+    opacity: 0.5;
+    background: transparent;
+    z-index: 5;
 }
 
-.arrow__itemtwo img  {
-	position: absolute;
-	margin: auto;
-	right: 80px;
-	top: 0;
-	bottom: 90px;
-	z-index: 1;
+.slick-next.slick-arrow {
+    background-image: url("../images/next.png");
+    right: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slick-prev.slick-arrow {
+    background-image: url("../images/back.png");
+    left: 25px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+    opacity: 1;
 }
 
 .btnbig {
@@ -190,6 +233,11 @@
 	text-align: center;
 	width: 205px;
 	font-size: 14px;
+}
+
+.sliderBottom img {
+	width: 100%;
+	height: auto;
 }
 
 /*начало футера*/
