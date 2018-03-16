@@ -1,0 +1,165 @@
+.topkSlidar__item img {
+	width: 100%;
+	height: auto;
+}
+
+.slick-dots li
+{
+    position: relative;
+
+    display: inline-block;
+
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+
+    cursor: pointer;
+    }
+
+.title {
+	font-size: 18px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.blockSliderS{
+	font-size: 0;
+}
+
+.blockSlidar__item {
+	display: inline-block;
+	width: 33.3%;
+    padding: 0 10px;
+    vertical-align: top;
+}
+
+.blockSlidar__item img {
+	width: 100%;
+	height: auto;
+}
+
+.deskription h2{
+	font-size: 14px;
+	width: 100%;
+	text-align: center;
+}
+
+.blockSale {
+	position: relative;
+	margin-bottom: 70px;
+}
+
+.blockSale img{
+	width: 100%;
+	height: auto;
+}
+
+.sale {
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 1;
+	width: 100%;
+	height: 30px;
+	font-size: 24px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #000;
+}
+
+.btnforslader {
+	text-align: center;
+	margin-top: 35px;
+	margin-bottom: 45px;
+}
+
+.btn {
+	display: inline-block;
+	font-size: 14px;
+	text-decoration: none;
+	border: 1px solid #b0ac9c;
+	padding: 15px;
+	color: #b0ac9c;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.blockSliderSS {
+	display: none;
+}
+
+.footer {
+	background-color: #000;
+	padding:20px 0;
+}
+
+.btn__footer {
+	font-size: 12px;
+	border: 1px solid #fff;
+	color: #fff;
+}
+
+.footer__left {
+	float: left;
+	width: 70%;
+}
+
+.spisok {
+	display: inline-block;
+	font-size: 12px;
+	color: #fff;
+	float: left;
+	width: 33.3%;
+	padding-right: 10px;
+}
+
+
+.spisok__link {
+	font-size: 12px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.footer__right {
+	float: right;
+	width: 30%;
+	text-align: right;
+}
+
+
+.footer__cp {
+	color: #fff;
+	padding-top: 20px;
+}
+
+.footer__cp a{
+	color: #fff;
+}
+
+
+@media screen and (max-width: 480px) {
+	.width1170 {
+		display: none;
+	}
+	.footer__left {
+	float: left;
+	width: 50%;
+	}
+
+.footer__right {
+	float: right;
+	width: 50%;
+	}
+
+.spisok {
+	display: inline-block;
+	color: #fff;
+	float: left;
+	width: 100%;
+	}
+

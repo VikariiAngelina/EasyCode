@@ -1,0 +1,36 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-size: 12px;
+
+}
+
+.container {
+	max-width: 1170px;
+	min-width: 320px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
+}
+
+.container:after {
+	display: table;
+	content: ' ';
+	clear: both;
+}
+
+.clearfix:after {
+	display: table;
+	content: ' ';
+	clear: both;
+}
+
+.listReset {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+	list-style: none;
+}
