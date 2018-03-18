@@ -171,6 +171,10 @@
 	position: relative;
 }
 
+.sliderBottom__item {
+	position: relative;
+}
+
 .banner__block h2 {
 	position: absolute;
 	margin: auto;
@@ -248,6 +252,10 @@
 
 .design_color {
 	color: #fafafa; 
+}
+
+.design_color:hover {
+	color: #fff;
 }
 
 .footerblock {
