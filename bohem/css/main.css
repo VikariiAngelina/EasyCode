@@ -156,8 +156,7 @@
 	text-decoration: none;
 }
 
-
-.topSlidar__item img {
+.topSlidar img {
 	width: 100%;
 	height: auto;
 }
@@ -200,8 +199,8 @@
 }
 
 .blockSlidar__item {
-	display: inline-block;
-	width: 33.3%;
+	display: block;
+	width: 100%;
     padding: 0 10px;
     vertical-align: top;
 }
@@ -262,22 +261,18 @@
 	color: #b0ac9c;
 	text-transform: uppercase;
 	text-align: center;
-}
-
-.blockSliderSS {
-	display: none;
-}
+	}
 
 .footer {
 	background-color: #000;
 	padding:20px 0;
-}
+	}
 
 .btn__footer {
 	font-size: 12px;
 	border: 1px solid #fff;
 	color: #fff;
-}
+	}
 
 .footer__left {
 	float: left;
@@ -318,20 +313,20 @@
 }
 
 @media screen and (min-width: 480px) {
-	.header__topRight {
-		float: right;
-	}
-	.mailLink {
-		float: left;
-		margin-bottom: 0;
-	}
-	
-	.footer__left {
+.header__topRight {
+	float: right;
+}
+.mailLink {
+	float: left;
+	margin-bottom: 0;
+}
+
+.footer__left {
 	float: left;
 	width: 70%;
 	}
 
-	.spisok {
+.spisok {
 	display: inline-block;
 	font-size: 12px;
 	color: #fff;
@@ -340,10 +335,19 @@
 	padding-right: 10px;
 	}
 
-	.footer__right {
+.footer__right {
 	float: right;
 	width: 30%;
 	text-align: right;
+	}
+}
+
+@media screen and (min-width: 576px) {
+.blockSlidar__item {
+	display: inline-block;
+	width: 33.3%;
+    padding: 0 10px;
+    vertical-align: top;
 	}
 }
 
@@ -351,6 +355,7 @@
 .toggleMobMenu {
 		display: none;
 	}
+
 	.logo {
 		position: static;
 		float: left;
@@ -368,10 +373,12 @@
     .menu__item {
     	display: inline-block;
     }
+
     .menu__item a {
     	font-size: 14px;
     	padding: 0 17px;
     }
+
     .header__form {
     	position: absolute;
     	right: 0;
@@ -383,6 +390,7 @@
     	padding-right: 25px;
     	border-bottom: 1px solid #000;
     }
+
     .header__form button {
     	background: #000 url(../images/search.png);
     	border: none;
@@ -393,10 +401,12 @@
     	bottom: 3px;
     	right: 0;
     }
+
     .header__formCont {
     	display: block;
     	float: right;
     }
+
     .searchIcon {
     	display: block;
     	width: 23px;
@@ -414,6 +424,7 @@
 		margin-top: 0;
 		margin-bottom: 0;
 	}
+
 	.logo {
 		position: static;
 		float: left;
@@ -421,22 +432,26 @@
 }
 
 @media screen and (min-width: 1200px) {
-.delivery {
+	.delivery {
 		margin-right: 150px;
 	}
+
 	.header__formCont {
 		margin-right: 10px;
 	} 
+
 	.header__form {
 		display: block;
 		position: relative;
 	}
+
 	.header__form input[type="search"] {
 	    border: block;
-    	padding-right: 25px;
-    	border-bottom: 1px solid #fff;
-    	background-color: transparent;
+		padding-right: 25px;
+		border-bottom: 1px solid #fff;
+		background-color: transparent;
 	}
+
 	.searchIcon {
 		display: none;
 	}
